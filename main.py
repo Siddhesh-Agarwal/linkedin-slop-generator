@@ -8,6 +8,7 @@ client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 st.set_page_config(page_title="English -> LinkedIn")
 
 st.title("English → LinkedIn")
+st.text("Convert text into LinkedIn Slop")
 
 input_text = st.text_area("Enter your sentence:")
 
